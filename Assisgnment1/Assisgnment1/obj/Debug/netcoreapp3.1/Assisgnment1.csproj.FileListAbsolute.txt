@@ -1,0 +1,13 @@
+C:\Users\Yen\source\repos\Assisgnment1\Assisgnment1\bin\Debug\netcoreapp3.1\Assisgnment1.exe
+C:\Users\Yen\source\repos\Assisgnment1\Assisgnment1\bin\Debug\netcoreapp3.1\Assisgnment1.deps.json
+C:\Users\Yen\source\repos\Assisgnment1\Assisgnment1\bin\Debug\netcoreapp3.1\Assisgnment1.runtimeconfig.json
+C:\Users\Yen\source\repos\Assisgnment1\Assisgnment1\bin\Debug\netcoreapp3.1\Assisgnment1.runtimeconfig.dev.json
+C:\Users\Yen\source\repos\Assisgnment1\Assisgnment1\bin\Debug\netcoreapp3.1\Assisgnment1.dll
+C:\Users\Yen\source\repos\Assisgnment1\Assisgnment1\bin\Debug\netcoreapp3.1\Assisgnment1.pdb
+C:\Users\Yen\source\repos\Assisgnment1\Assisgnment1\obj\Debug\netcoreapp3.1\Assisgnment1.csprojAssemblyReference.cache
+C:\Users\Yen\source\repos\Assisgnment1\Assisgnment1\obj\Debug\netcoreapp3.1\Assisgnment1.AssemblyInfoInputs.cache
+C:\Users\Yen\source\repos\Assisgnment1\Assisgnment1\obj\Debug\netcoreapp3.1\Assisgnment1.AssemblyInfo.cs
+C:\Users\Yen\source\repos\Assisgnment1\Assisgnment1\obj\Debug\netcoreapp3.1\Assisgnment1.csproj.CoreCompileInputs.cache
+C:\Users\Yen\source\repos\Assisgnment1\Assisgnment1\obj\Debug\netcoreapp3.1\Assisgnment1.dll
+C:\Users\Yen\source\repos\Assisgnment1\Assisgnment1\obj\Debug\netcoreapp3.1\Assisgnment1.pdb
+C:\Users\Yen\source\repos\Assisgnment1\Assisgnment1\obj\Debug\netcoreapp3.1\Assisgnment1.genruntimeconfig.cache
