@@ -10,33 +10,44 @@ namespace practice
 
             int num = 5;
             int counter = 1;
-            counter = num - 1;
+            counter = num/2;
 
             for (int i = 1; i <= num; i++)
             {
-                for (int j = 1; j <= counter; j++)
-                    Console.Write($" ");
+                if(2*i-1 <= num)
+                {
+                    for (int j = 1; j <= counter; j++)
+                        Console.Write(" ");
 
-                counter--;
+                    counter--;
 
-                for (int j = 1; j <= 2 * i - 1; j++)
-                    Console.Write($"*");
+                    for (int j = 1; j <= 2 * i - 1; j++)
+                        Console.Write("*");
 
-                Console.WriteLine();
+                    Console.WriteLine();
+                }
+                else
+                {
+                    break;
+                }
             }
 
             counter = 1;
 
+            
             for (int i = 1; i <= num - 1; i++)
             {
-                for (int j = 1; j <= counter; j++)
-                    Console.Write($" ");
+                if (2 * (num - i) - 1 < num)
+                {
+                    for (int j = 1; j <= counter; j++)
+                        Console.Write(" ");
 
-                counter++;
-                for (int j = 1; j <= 2 * (num - i) - 1; j++)
-                    Console.Write($"*");
+                    counter++;
+                    for (int j = 1; j <= 2 * (num - i) - 1; j++)
+                        Console.Write("*");
 
-                Console.WriteLine();
+                    Console.WriteLine();
+                }
             }
 
         }
