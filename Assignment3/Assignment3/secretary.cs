@@ -14,24 +14,24 @@ namespace Assignment3
         int[] movies = new int[100];
         int[] books = new int[100];
 
-        public void AddGames( int id )
+        public void AddGames( int gameid )
         {
             for(int i = 0; i < games.Length; i++)
             {
-                games[i] = id;
+                games[i] = gameid;
             }
         }
-        public void AddMovies
-            for (int i = 0; i < games.Length; i++)
+        public void AddMovies(int movieid) { 
+            for (int i = 0; i < movies.Length; i++)
             {
-                movies[i] = id;
+                movies[i] = movieid;
             }
         }
-        public void AddGames(int id)
+        public void AddBooks(int bookid)
         {
-            for (int i = 0; i < games.Length; i++)
+            for (int i = 0; i < books.Length; i++)
             {
-                games[i] = id;
+                books[i] = bookid;
             }
         }
     }
