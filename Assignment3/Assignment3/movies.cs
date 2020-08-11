@@ -8,5 +8,9 @@ namespace Assignment3
     {
         public int MovieId { get; private set; }
         public int MovieName { get; private set; }
+
+        private int categoryId = 3;
+
+        int[] moviesList;
     }
 }

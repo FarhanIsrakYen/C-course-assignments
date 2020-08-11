@@ -10,28 +10,19 @@ namespace Assignment3
         public string SecName { get; private set; }
         public string SecPassword { get; private set; }
 
-        int[] games = new int[100];
-        int[] movies = new int[100];
-        int[] books = new int[100];
+        int[] itemListId = new int[1000];
+        int[] itemListCat = new int[1000];
+        string[] itemListName = new string[1000];
 
-        public void AddGames( int gameid )
+        
+
+        public void addItem(int id, int category, string name)
         {
-            for(int i = 0; i < games.Length; i++)
+            for (int i = 0; i < 1000; i++)
             {
-                games[i] = gameid;
-            }
-        }
-        public void AddMovies(int movieid) { 
-            for (int i = 0; i < movies.Length; i++)
-            {
-                movies[i] = movieid;
-            }
-        }
-        public void AddBooks(int bookid)
-        {
-            for (int i = 0; i < books.Length; i++)
-            {
-                books[i] = bookid;
+                itemListId[i] = id;
+                itemListCat[i] = category;
+                itemListName[i] = name;
             }
         }
     }

@@ -4,34 +4,26 @@ using System.Text;
 
 namespace Assignment3
 {
-    class purchasedItems 
+    class purchasedItems : itemMerger 
     {
         DateTime todaysDate = DateTime.Now;
-        public bool BookExpired(DateTime purchaseDate, DateTime todaysDate)
-        {
-            int diff = todaysDate - purchaseDate;
-            if (diff > 28)
-                return true;
-            else
-                return false;
-        }
+        int[] bookedItemList = new int[1000];
+        
 
-        public bool MoviesExpired(DateTime purchaseDate, DateTime todaysDate)
+        public bool ItemsExpired(int id, DateTime purchaseDate, DateTime todaysDate)
         {
             int diff = todaysDate - purchaseDate;
-            if (diff > 7)
-                return true;
-            else
-                return false;
-        }
-
-        public bool GamesExpired(DateTime purchaseDate, DateTime todaysDate)
-        {
-            int diff = todaysDate - purchaseDate;
-            if (diff > 7)
-                return true;
-            else
-                return false;
+            bool status = false;
+            if(id == 1)
+            {
+                if (diff > 28)
+                    status = true;
+            }else
+            {
+                if (diff > 7)
+                    status = true;
+            }
+            return status;
         }
     }
 }

@@ -9,7 +9,10 @@ namespace Assignment3
         public int BookId { get; private set; }
         public int BookName { get; private set; }
 
-        
+        private int categoryId = 1;
+
+        int[] bookList;
+
 
         
     }

@@ -13,7 +13,12 @@ namespace Assignment3
         public string UserEmail { get; private set; }
 
         private int cartItems;
+        private int overDueItems = 0;
+        private int fine = 0;
+        public int[] purchasedItems = new int[1000];
+        public int[] dueItems = new int[1000];
         DateTime now = DateTime.Now;
+        
 
         public users() {
             cartItems = 0;
@@ -50,12 +55,18 @@ namespace Assignment3
 
         public void AddItems(int proId, DateTime date)
         {
-            for (int i = crntItems.Length; i < 100; i++)
+            if(overDueItems>10)
             {
-                crntItems[i] = proId;
-                purchaseTime[i] = DateTime.Now;
-                Console.WriteLine($"Product of id:{proId} has been borrowed successfully");
-            }
+                for (int i = crntItems.Length; i < 100; i++)
+                {
+                    crntItems[i] = proId;
+                    purchaseTime[i] = DateTime.Now;
+                    Console.WriteLine($"Product of id:{proId} has been borrowed successfully");
+                }
+            }else
+            {
+                Console.WriteLine($"Sorry you can't borrow any more new items as there are so many due items");
+            }  
             
         }
 
@@ -74,22 +85,39 @@ namespace Assignment3
             }
         }    
 
-        public void OverdueItems(DateTime purDate, int proId)
+        public void OverdueItems(DateTime purDate, int proId, int proCat)
         {
             for(int i = 0; i < crntItems.Length; i++)
             {
                 for(int j = 0; j < crntItems.Length; j++)
                 {
-                    if (BookExpired(purchaseTime[j], now) == true)
+                    if (ItemsExpired(proCat, purchaseTime[j], now) == true)
                     {
                         Console.WriteLine($"{crntItems[i]}");
-                        
+                        overDueItems++;
                     }
 
                 }
             }
             
         }
+
+        public void DueChecker()
+        {
+            for (int i = 0; i < dueItems.Length; i++)
+                Console.WriteLine($"{dueItems[i]}");
+        }
+
+        public void Reminder(string email, int id)
+        {
+            Console.WriteLine($"Your borrowed product of ID: {id} has been expired. You're requested to return the product!");
+        }
+
+        public int FineChecker()
+        {
+            return fine;
+        }
+        
 
     }
 }

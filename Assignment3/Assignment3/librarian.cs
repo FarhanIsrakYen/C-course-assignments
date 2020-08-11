@@ -10,10 +10,17 @@ namespace Assignment3
         public string LibName { get; private set; }
         public string LibPassword { get; private set; }
 
+        private int[] users = new int[10000];
+
         public int GetUserWithDue(int id)
         {
 
             return id;
+        }
+
+        public void SendNotifications(int id, int email)
+        {
+
         }
     }
 }
