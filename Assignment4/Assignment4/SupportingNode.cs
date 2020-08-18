@@ -6,30 +6,21 @@ namespace Assignment4
 {
     //class SupportingNode<T>
     //{
-    //    public T data;
+    //    public T data { get; set; }
 
-    //    public SupportingNode<T> rightNode;
+    //    public SupportingNode<T> rightNode { get; set; }
 
-    //    public SupportingNode<T> leftNode;
-
-    //    public void Show()
-    //    {
-    //        Console.Write(data + " ");
-    //    }
+    //    public SupportingNode<T> leftNode { get; set; }
     //}
 
     class SupportingNode
     {
-        public int data;
+        public int data { get; set; }
 
-        public SupportingNode rightNode;
+        public SupportingNode rightNode { get; set; }
 
-        public SupportingNode leftNode;
+        public SupportingNode leftNode { get; set; }
 
-        public void Show()
-        {
-            Console.Write($"{ data } ");
-        }
     }
 
 }

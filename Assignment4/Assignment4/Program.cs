@@ -6,13 +6,16 @@ namespace Assignment4
     {
         static void Main(string[] args)
         {
-            TreeOperations op = new TreeOperations();
+            TreeOperations<int> op = new TreeOperations<int>();
 
-            op.InsertData(2);
-            op.InsertData(3);
-            op.InsertData(10);
-            op.InsertData(6);
-            op.Show();
+            op.Insert(1);
+            op.Insert(2);
+            op.Insert(7);
+            op.Insert(3);
+            op.Insert(10);
+            op.Insert(5); 
+            op.Insert(8);
+            op.TreeTraverse();
         }
     }
 }

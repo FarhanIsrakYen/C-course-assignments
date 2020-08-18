@@ -4,63 +4,58 @@ using System.Text;
 
 namespace Assignment4
 {
-    //class TreeOperations<T>:SupportingNode<T>
-    class TreeOperations : SupportingNode
+    
+    class TreeOperations<T>
     {
-        //public SupportingNode<T> root;
-        public SupportingNode root;
-
-        public TreeOperations()
+        public SupportingNode root { get; set; }
+        public bool Insert( int input )
         {
-            root = null;
-        }
 
-        //public void InsertData(T nodeData)
-        public void InsertData(int nodeData)
-        {
-            //SupportingNode<T> n = new SupportingNode<T>();
-            //SupportingNode<T> crnt;
-            //SupportingNode<T> parentNode;
+            SupportingNode previous = null, crnt = this.root;
 
-            SupportingNode n = new SupportingNode();
-            SupportingNode crnt;
-            SupportingNode parentNode;
-
-            n.data = nodeData;
-
-            if (root == null)
+            while (crnt != null)
             {
-                root = n;
-            }
-            else
-            {
-                crnt = root;
-                while(true)
+                previous = crnt;
+                if (input < crnt.data) 
+                    crnt = crnt.leftNode;
+                else if (input > crnt.data) 
+                    crnt = crnt.rightNode;
+                else
                 {
-                    parentNode = crnt;
-                    if(nodeData < crnt.data)
-                    {
-                        crnt = crnt.leftNode;
-                        if (crnt == null)
-                        {
-                            parentNode.leftNode = n;
-                            break;
-                        }
-
-                        else
-                        {
-                            crnt = crnt.rightNode;
-                            if (crnt == null)
-                            {
-                                parentNode.rightNode = n;
-                                break;
-                            }
-                        }
-                    }
+                    return false;
                 }
             }
 
-            
+            SupportingNode s = new SupportingNode();
+            s.data = input;
+
+            if (this.root == null)
+                this.root = s;
+            else
+            {
+                if (input < previous.data)
+                    previous.leftNode = s;
+                else
+                    previous.rightNode = s;
+            }
+
+            return true;
+        }
+
+
+        public void TreeTraverse()
+        {
+            TreeTraverse(this.root);
+            Console.WriteLine();
+        }
+        public void TreeTraverse(SupportingNode parent)
+        {
+            if (parent != null)
+            {
+                TreeTraverse(parent.leftNode);
+                Console.Write($"{parent.data} ");
+                TreeTraverse(parent.rightNode);
+            }
         }
     }
 }
