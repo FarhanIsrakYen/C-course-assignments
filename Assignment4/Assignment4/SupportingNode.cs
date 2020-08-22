@@ -9,7 +9,5 @@ namespace Assignment4
         public T Data { get; set; }
         public SupportingNode<T> RightNode { get; set; }
         public SupportingNode<T> LeftNode { get; set; }
-
     }
-
 }

@@ -9,6 +9,7 @@ namespace Assignment4
             TreeOperations<int> op = new TreeOperations<int>();
             op.Insert(1);
             op.Insert(2);
+            op.Insert(2);
             op.Insert(7);
             op.Insert(3);
             op.Insert(10);
