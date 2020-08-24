@@ -1,0 +1,12 @@
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\problem3\problem3\bin\Debug\netcoreapp3.1\problem3.exe
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\problem3\problem3\bin\Debug\netcoreapp3.1\problem3.deps.json
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\problem3\problem3\bin\Debug\netcoreapp3.1\problem3.runtimeconfig.json
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\problem3\problem3\bin\Debug\netcoreapp3.1\problem3.runtimeconfig.dev.json
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\problem3\problem3\bin\Debug\netcoreapp3.1\problem3.dll
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\problem3\problem3\bin\Debug\netcoreapp3.1\problem3.pdb
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\problem3\problem3\obj\Debug\netcoreapp3.1\problem3.AssemblyInfoInputs.cache
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\problem3\problem3\obj\Debug\netcoreapp3.1\problem3.AssemblyInfo.cs
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\problem3\problem3\obj\Debug\netcoreapp3.1\problem3.csproj.CoreCompileInputs.cache
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\problem3\problem3\obj\Debug\netcoreapp3.1\problem3.dll
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\problem3\problem3\obj\Debug\netcoreapp3.1\problem3.pdb
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\problem3\problem3\obj\Debug\netcoreapp3.1\problem3.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\probleam6\probleam6\bin\Debug\netcoreapp3.1\probleam6.exe
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\probleam6\probleam6\bin\Debug\netcoreapp3.1\probleam6.deps.json
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\probleam6\probleam6\bin\Debug\netcoreapp3.1\probleam6.runtimeconfig.json
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\probleam6\probleam6\bin\Debug\netcoreapp3.1\probleam6.runtimeconfig.dev.json
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\probleam6\probleam6\bin\Debug\netcoreapp3.1\probleam6.dll
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\probleam6\probleam6\bin\Debug\netcoreapp3.1\probleam6.pdb
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\probleam6\probleam6\obj\Debug\netcoreapp3.1\probleam6.AssemblyInfoInputs.cache
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\probleam6\probleam6\obj\Debug\netcoreapp3.1\probleam6.AssemblyInfo.cs
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\probleam6\probleam6\obj\Debug\netcoreapp3.1\probleam6.csproj.CoreCompileInputs.cache
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\probleam6\probleam6\obj\Debug\netcoreapp3.1\probleam6.dll
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\probleam6\probleam6\obj\Debug\netcoreapp3.1\probleam6.pdb
+C:\Users\Yen\source\repos\Assignment 5\Chapter3\probleam6\probleam6\obj\Debug\netcoreapp3.1\probleam6.genruntimeconfig.cache
