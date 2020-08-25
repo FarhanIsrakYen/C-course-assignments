@@ -1,0 +1,13 @@
+C:\Users\Yen\source\repos\Assignment 5\Chapter4\problem7\problem7\bin\Debug\netcoreapp3.1\problem7.exe
+C:\Users\Yen\source\repos\Assignment 5\Chapter4\problem7\problem7\bin\Debug\netcoreapp3.1\problem7.deps.json
+C:\Users\Yen\source\repos\Assignment 5\Chapter4\problem7\problem7\bin\Debug\netcoreapp3.1\problem7.runtimeconfig.json
+C:\Users\Yen\source\repos\Assignment 5\Chapter4\problem7\problem7\bin\Debug\netcoreapp3.1\problem7.runtimeconfig.dev.json
+C:\Users\Yen\source\repos\Assignment 5\Chapter4\problem7\problem7\bin\Debug\netcoreapp3.1\problem7.dll
+C:\Users\Yen\source\repos\Assignment 5\Chapter4\problem7\problem7\bin\Debug\netcoreapp3.1\problem7.pdb
+C:\Users\Yen\source\repos\Assignment 5\Chapter4\problem7\problem7\obj\Debug\netcoreapp3.1\problem7.csprojAssemblyReference.cache
+C:\Users\Yen\source\repos\Assignment 5\Chapter4\problem7\problem7\obj\Debug\netcoreapp3.1\problem7.AssemblyInfoInputs.cache
+C:\Users\Yen\source\repos\Assignment 5\Chapter4\problem7\problem7\obj\Debug\netcoreapp3.1\problem7.AssemblyInfo.cs
+C:\Users\Yen\source\repos\Assignment 5\Chapter4\problem7\problem7\obj\Debug\netcoreapp3.1\problem7.csproj.CoreCompileInputs.cache
+C:\Users\Yen\source\repos\Assignment 5\Chapter4\problem7\problem7\obj\Debug\netcoreapp3.1\problem7.dll
+C:\Users\Yen\source\repos\Assignment 5\Chapter4\problem7\problem7\obj\Debug\netcoreapp3.1\problem7.pdb
+C:\Users\Yen\source\repos\Assignment 5\Chapter4\problem7\problem7\obj\Debug\netcoreapp3.1\problem7.genruntimeconfig.cache
